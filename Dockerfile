@@ -1,8 +1,8 @@
 # youtube-dl-nas Server Dockerfile
-# https://github.com/hyeonsangjeon/youtube-dl-nas.git
+# source https://github.com/hyeonsangjeon/youtube-dl-nas.git
+# modified for ARM use https://github.com/erik-de-bont/youtube-dl-nas.git 
 
 FROM python:3
-LABEL maintainer="wingnut0310 <wingnut0310@gmail.com>"
 
 WORKDIR /usr/src/app
 COPY . . 
