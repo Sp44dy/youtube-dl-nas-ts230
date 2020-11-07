@@ -40,7 +40,7 @@ The docker volume parameter `-v` is used by the queue operation to process the d
 
 ##### To run docker, excute this command in a ternimal:
 ```shell
-docker run -d --name youtube-dl -e MY_ID=youtube -e MY_PW=1234  -v /volume2/youtube-dl:/downfolder -p 8080:8080 modenaf360/youtube-dl-nas
+docker run -d --name youtube-dl -e MY_ID=youtube -e MY_PW=1234  -v /volume2/youtube-dl:/downfolder -p 8080:8080 edebont/youtube-dl-nas
 ```
 
 ##### If want set TimeZone, example using in Europe web content 
