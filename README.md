@@ -15,6 +15,7 @@ https://hub.docker.com/r/modenaf360/youtube-dl-nas/
 ![screenshot1](https://github.com/hyeonsangjeon/youtube-dl-nas/blob/master/pic/youtube-dl-server-login.png?raw=true)
 
 ### Update Info
+- 2020.11.08 : Created an ARM32 version of the youtube-dl-nas container
 - 2020.11.08 : Copied and modified source from https://hub.docker.com/r/modenaf360/youtube-dl-nas/ to build for ARM (Raspberry Pi) 
 
 ### How to use this image
