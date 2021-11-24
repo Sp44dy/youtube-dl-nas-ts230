@@ -27,6 +27,7 @@ RUN chmod +x /usr/bin/subber && \
 
 RUN /usr/local/bin/python -m pip install --no-cache-dir  --upgrade pip
 RUN pip install --no-cache-dir  -r /usr/src/app/requirements.txt
+RUN pip install -U youtube-dl
 
 
 EXPOSE 8080
