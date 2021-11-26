@@ -2,7 +2,7 @@
 # source https://github.com/hyeonsangjeon/youtube-dl-nas.git
 # modified for ARM use https://github.com/erik-de-bont/youtube-dl-nas.git 
 
-FROM python:3
+FROM python:3.6
 
 WORKDIR /usr/src/app
 COPY . . 
